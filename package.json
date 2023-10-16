@@ -1,6 +1,6 @@
 {
   "name": "cnnar",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "cnnar",
   "main": "index.js",
   "scripts": {
