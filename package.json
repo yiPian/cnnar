@@ -1,7 +1,7 @@
 {
-  "name": "cnnar",
+  "name": "@cnnar/wx-mp-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "cnnar wechat mini program template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^7.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
