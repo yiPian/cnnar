@@ -1,7 +1,7 @@
 {
-  "name": "@cnnar/wx-mp-template",
+  "name": "cnnar",
   "version": "0.0.2",
-  "description": "cnnar wechat mini program template",
+  "description": "cnnar",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
