@@ -1,6 +1,6 @@
 {
   "name": "@cnnar/wx-mp-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "微信小程序模板",
   "scripts": {
     "dev:app": "uni -p app",
