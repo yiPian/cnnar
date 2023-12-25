@@ -1,0 +1,116 @@
+page {
+    background-color: #f5f6f7;
+    font-size: 28rpx;
+}
+.bg-filter-white {
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+}
+.bg-filter-border {
+    border:1px solid rgba(255, 255, 255, 0.85);
+}
+.hidden {
+    overflow: hidden;
+}
+.no-bg {
+    background-color: transparent;
+}
+.w {
+    width: 100%;
+}
+.pr {
+    position: relative;
+}
+.sl-1,
+.sl-2,
+.sl-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.sl-1 {
+    -webkit-line-clamp: 1;
+}
+.sl-2 {
+    -webkit-line-clamp: 2;
+}
+.sl-3 {
+    -webkit-line-clamp: 3;
+}
+.line-height-0 {
+    line-height: 0;
+}
+.line-height-df {
+    line-height: 1.4;
+}
+
+.scale-7 {
+    transform: scale(.6) translateX(4px);
+}
+.img-icon {
+    width: 44rpx;
+    height: 44rpx;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.textarea-sm {
+    min-height: 140rpx!important;
+}
+
+.border-space {
+    border-top: 1px solid #fefefe;
+    border-bottom: 2px solid #eee;
+}
+
+
+.z-tabbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    border-top-left-radius: 30rpx;
+    border-top-right-radius: 30rpx;
+    overflow: hidden;
+}
+.z-tabbar.no-radius {
+    border-radius: 0;
+}
+.cu-bar.tabbar .action {
+    background-color: transparent;
+}
+
+.btn-w-df {
+    font-size: 24rpx;
+    width: 140rpx;
+    height: 54rpx;
+}
+
+.sort-icon {
+    display: inline-block;
+    width: 36rpx;
+    height: 34rpx;
+    background-repeat: no-repeat;
+    background-size: 28rpx 100%;
+    background-position: 0 0;
+}
+.sort-icon.one {
+    background-image: url('../img/1.png');
+}
+.sort-icon.two {
+    background-image: url('../img/2.png');
+}
+.sort-icon.three {
+    background-image: url('../img/3.png');
+}
+.sort-icon.other {
+    text-align: center;
+    width: 30rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    background-color: #ccc;
+    border-radius: 50%;
+    color: #999;
+    font-size:20rpx;
+}

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { onLaunch, onShow, onHide } from "@dcloudio/uni-app";
+import { initSystemInfo } from "./utils/system";
 onLaunch(() => {
+  	initSystemInfo()
   console.log("App Launch");
 });
 onShow(() => {

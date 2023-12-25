@@ -1,0 +1,43 @@
+<template>
+    <ListView :query-func="useOrderQuery" to-create="store/tiaojia-add">
+        <template v-slot="{ data }">
+            <div class="bg-white padding-sm margin-sm" v-for="el in data" :key="el.id" @click="toInfo(el.id)">
+                <div class="flex justify-between align-center solid-bottom padding-bottom-sm">
+                    <span class="text-bold">{{ el.bill_code }}</span>
+                    <van-tag type="warning" v-if="el.bill_state == 1">待审核</van-tag>
+                    <van-tag type="success" v-else="el.bill_state == 2">已审核</van-tag>
+                </div>
+                <div class="text-gray">
+                    <div class="flex justify-between align-center margin-tb-sm">
+                        <span>单据日期</span>
+                        <span class="text-black">{{ el.all_amount }}</span>
+                    </div>
+                    <div class="flex justify-between align-center margin-tb-sm">
+                        <span>调出仓库</span>
+                        <span class="text-black">{{ el.all_quantity }}</span>
+                    </div>
+                    <div class="flex justify-between align-center margin-tb-sm">
+                        <span>调入仓库</span>
+                        <span class="text-black">{{ el.create_na }}</span>
+                    </div>
+                    <div class="flex justify-between align-center margin-tb-sm">
+                        <span>数量</span>
+                        <span class="text-black">{{ el.created_at }}</span>
+                    </div>
+                    <div class="flex justify-between align-center margin-tb-sm">
+                        <span>备注</span>
+                        <span class="text-black">{{ el.created_at }}</span>
+                    </div>
+                </div>
+            </div> 
+        </template>
+    </ListView>
+</template>
+<script setup lang="ts">
+    import { useOrderQuery } from '@/api/order'
+    import ListView from '@/components/list-view/index.vue'
+
+    const toInfo = (id:number) => {
+        uni.navigateTo({ url: '/pages/store/tiaojia-info?id=' + id })
+    }
+</script>

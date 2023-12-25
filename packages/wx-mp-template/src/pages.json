@@ -1,18 +1,284 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/home/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/msg/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/work/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/caigou/kaidan-add",
+			"style": {
+				"navigationBarTitleText": "新增采购开单"
+			}
+		},{
+			"path": "pages/caigou/kaidan-info",
+			"style": {
+				"navigationBarTitleText": "采购开单详情"
+			}
+		},{
+			"path": "pages/caigou/kaidan",
+			"style": {
+				"navigationBarTitleText": "采购开单"
+			}
+		},{
+			"path": "pages/caigou/dingdan-add",
+			"style": {
+				"navigationBarTitleText": "新增采购订单"
+			}
+		},{
+			"path": "pages/caigou/dingdan-info",
+			"style": {
+				"navigationBarTitleText": "采购订单详情"
+			}
+		},{
+			"path": "pages/caigou/dingdan",
+			"style": {
+				"navigationBarTitleText": "采购订单"
+			}
+		},{
+			"path": "pages/caigou/tuidan",
+			"style": {
+				"navigationBarTitleText": "采购退单"
+			}
+		},{
+			"path": "pages/caigou/tuidan-add",
+			"style": {
+				"navigationBarTitleText": "新增采购退单"
+			}
+		},{
+			"path": "pages/caigou/tuidan-info",
+			"style": {
+				"navigationBarTitleText": "采购退单详情"
+			}
+		},
+		{
+			"path": "pages/product/select",
+			"style": {
+				"navigationBarTitleText": "货品选择"
+			}
+		},{
+			"path": "pages/product/index",
+			"style": {
+				"navigationBarTitleText": "货品列表"
+			}
+		},{
+			"path": "pages/product/info",
+			"style": {
+				"navigationBarTitleText": "货品详情"
+			}
+		},{
+			"path": "pages/xiaoshou/dingdan",
+			"style": {
+				"navigationBarTitleText": "销售订单"
+			}
+		},{
+			"path": "pages/xiaoshou/dingdan-add",
+			"style": {
+				"navigationBarTitleText": "新增销售订单"
+			}
+		},{
+			"path": "pages/xiaoshou/dingdan-info",
+			"style": {
+				"navigationBarTitleText": "销售订单详情"
+			}
+		},{
+			"path": "pages/xiaoshou/kaidan-add",
+			"style": {
+				"navigationBarTitleText": "新增销售开单"
+			}
+		},{
+			"path": "pages/xiaoshou/kaidan-info",
+			"style": {
+				"navigationBarTitleText": "销售开单详情"
+			}
+		},{
+			"path": "pages/xiaoshou/kaidan",
+			"style": {
+				"navigationBarTitleText": "销售开单查询"
+			}
+		},{
+			"path": "pages/ruku/kaidan-add",
+			"style": {
+				"navigationBarTitleText": "新增入库开单"
+			}
+		},{
+			"path": "pages/ruku/kaidan-info",
+			"style": {
+				"navigationBarTitleText": "入库开单详情"
+			}
+		},{
+			"path": "pages/ruku/kaidan",
+			"style": {
+				"navigationBarTitleText": "入库开单"
+			}
+		},{
+			"path": "pages/ruku/dai",
+			"style": {
+				"navigationBarTitleText": "待入库单"
+			}
+		},{
+			"path": "pages/store/zuzhuang",
+			"style": {
+				"navigationBarTitleText": "组装开单"
+			}
+		},{
+			"path": "pages/store/zuzhuang-add",
+			"style": {
+				"navigationBarTitleText": "新增组装开单"
+			}
+		},{
+			"path": "pages/store/zuzhuang-info",
+			"style": {
+				"navigationBarTitleText": "组装开单详情"
+			}
+		},{
+			"path": "pages/store/caixie",
+			"style": {
+				"navigationBarTitleText": "拆卸开单"
+			}
+		},{
+			"path": "pages/store/caixie-add",
+			"style": {
+				"navigationBarTitleText": "新增拆卸开单"
+			}
+		},{
+			"path": "pages/store/caixie-info",
+			"style": {
+				"navigationBarTitleText": "拆卸开单详情"
+			}
+		},{
+			"path": "pages/store/baosun",
+			"style": {
+				"navigationBarTitleText": "报损开单"
+			}
+		},{
+			"path": "pages/store/baosun-add",
+			"style": {
+				"navigationBarTitleText": "新增报损开单"
+			}
+		},{
+			"path": "pages/store/baosun-info",
+			"style": {
+				"navigationBarTitleText": "报损开单详情"
+			}
+		},{
+			"path": "pages/store/diaobo",
+			"style": {
+				"navigationBarTitleText": "仓库调拨单"
+			}
+		},{
+			"path": "pages/store/diaobo-add",
+			"style": {
+				"navigationBarTitleText": "新增仓库调拨单"
+			}
+		},{
+			"path": "pages/store/diaobo-info",
+			"style": {
+				"navigationBarTitleText": "仓库调拨单详情"
+			}
+		},
+		{
+			"path": "pages/store/pandian",
+			"style": {
+				"navigationBarTitleText": "盘点单"
+			}
+		},
+		{
+			"path": "pages/store/pandian-add",
+			"style": {
+				"navigationBarTitleText": "新增盘点单"
+			}
+		},{
+			"path": "pages/store/pandian-info",
+			"style": {
+				"navigationBarTitleText": "盘点单详情"
+			}
+		},
+		{
+			"path": "pages/store/tiaojia", 
+			"style": {
+				"navigationBarTitleText": "存货调价单"
+			}
+		},
+		{
+			"path": "pages/store/tiaojia-add",
+			"style": {
+				"navigationBarTitleText": "新增存货调价单"
+			}
+		},{
+			"path": "pages/store/tiaojia-info",
+			"style": {
+				"navigationBarTitleText": "存货调价单详情"
+			}
+		},{
+			"path": "pages/kehu/list",
+			"style": {
+				"navigationBarTitleText": "客户列表"
+			}
+		},{
+			"path": "pages/kehu/info",
+			"style": {
+				"navigationBarTitleText": "客户详情"
+			}
+		},{
+			"path": "pages/kehu/tongji",
+			"style": {
+				"navigationBarTitleText": "客户销售统计"
+			}
+		},{
+			"path": "pages/kehu/wanglai",
+			"style": {
+				"navigationBarTitleText": "客户往来"
+			}
+		},{
+			"path": "pages/kehu/create",
+			"style": {
+				"navigationBarTitleText": "创建客户"
+			}
+		},{
+			"path": "pages/sanbao/dengji",
+			"style": {
+				"navigationBarTitleText": "三包登记"
+			}
+		},{
+			"path": "pages/sanbao/dengji-add",
+			"style": {
+				"navigationBarTitleText": "新增三包登记"
+			}
+		},{
+			"path": "pages/sanbao/jiujian",
+			"style": {
+				"navigationBarTitleText": "旧件登记"
+			}
+		},{
+			"path": "pages/sanbao/jiujian-add",
+			"style": {
+				"navigationBarTitleText": "新增旧件登记"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
+		"navigationBarTitleText": "cnnar-wx-mp-template",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F5F6F7",
 		"usingComponents": {
+			"ff-canvas": "/wxcomponents/wx-f2/index",
 			"van-button": "/wxcomponents/vant/button/index",
 			"van-cell": "/wxcomponents/vant/cell/index",
 			"van-cell-group": "/wxcomponents/vant/cell-group/index",
@@ -76,8 +342,33 @@
 			"van-submit-bar": "/wxcomponents/vant/submit-bar/index",
 			"van-goods-action": "/wxcomponents/vant/goods-action/index",
 			"van-goods-action-icon": "/wxcomponents/vant/goods-action-icon/index",
-			"van-goods-action-button": "/wxcomponents/vant/goods-action-button/index",
-			
+			"van-goods-action-button": "/wxcomponents/vant/goods-action-button/index"
 		}
+	},
+	"tabBar": {
+		"color": "#8B98A6",
+		"selectedColor": "#25C05A",
+		"borderStyle": "white",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"text": "首页",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/home-active.png"
+		},{
+			"pagePath": "pages/work/index",
+			"text": "工作台",
+			"iconPath": "static/img/work.png",
+			"selectedIconPath": "static/img/work-active.png"
+		},{
+			"pagePath": "pages/msg/index",
+			"text": "消息",
+			"iconPath": "static/img/notice.png",
+			"selectedIconPath": "static/img/notice-active.png"
+		},{
+			"pagePath": "pages/my/index",
+			"text": "我的",
+			"iconPath": "static/img/my.png",
+			"selectedIconPath": "static/img/my-active.png"
+		}]
 	}
 }
